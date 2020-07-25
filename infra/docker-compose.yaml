@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3.3"
 volumes:
   db-store:
   php-fpm-socket:
@@ -22,4 +22,4 @@ services:
     volumes:
       - db-store:/var/lib/mysql
     ports:
-      - 3306:3306
+      - 3307:3307
